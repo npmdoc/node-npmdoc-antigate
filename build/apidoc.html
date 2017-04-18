@@ -1,0 +1,142 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://bitbucket.org/ssbb/node-antigate#readme"
+
+    >antigate (v0.0.1)</a>
+</h1>
+<h4>Client for antigate.com API</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.antigate">module antigate</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.antigate.antigate">
+            function <span class="apidocSignatureSpan"></span>antigate
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.antigate.toString">
+            function <span class="apidocSignatureSpan">antigate.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.antigate" id="apidoc.module.antigate">module antigate</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.antigate.antigate" id="apidoc.element.antigate.antigate">
+        function <span class="apidocSignatureSpan"></span>antigate
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">antigate = function (key) {
+  this.key = key;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.antigate.toString" id="apidoc.element.antigate.toString">
+        function <span class="apidocSignatureSpan">antigate.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+};
+
+Antigate.prototype.readCaptcha = function(path, callback) {
+fs.readFile(path, function(error, data) {
+  if (error) {
+    callback(error, null);
+  } else {
+    callback(null, new Buffer(data).<span class="apidocCodeKeywordSpan">toString</span>(&#x27;base64&#x27;));
+  }
+});
+};
+
+Antigate.prototype.loadCaptcha = function(url, callback) {
+return request.get(url, { encoding: null }, function(error, response, body) {
+  if (!error &#x26;&#x26; response.statusCode === 200) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
