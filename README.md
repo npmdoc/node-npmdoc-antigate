@@ -1,6 +1,6 @@
 # npmdoc-antigate
 
-#### api documentation for  [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-antigate.svg)](https://travis-ci.org/npmdoc/node-npmdoc-antigate)
+#### basic api documentation for  [antigate (v0.0.1)](https://bitbucket.org/ssbb/node-antigate#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-antigate.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-antigate) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-antigate.svg)](https://travis-ci.org/npmdoc/node-npmdoc-antigate)
 
 #### Client for antigate.com API
 
@@ -49,7 +49,8 @@
         "type": "mercurial",
         "url": "git+https://bitbucket.org/ssbb/node-antigate.git"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
