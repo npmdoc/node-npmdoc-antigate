@@ -70,15 +70,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.antigate.toString">
-            function <span class="apidocSignatureSpan">antigate.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -98,37 +89,6 @@
   this.key = key;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.antigate.toString" id="apidoc.element.antigate.toString">
-        function <span class="apidocSignatureSpan">antigate.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-};
-
-Antigate.prototype.readCaptcha = function(path, callback) {
-fs.readFile(path, function(error, data) {
-  if (error) {
-    callback(error, null);
-  } else {
-    callback(null, new Buffer(data).<span class="apidocCodeKeywordSpan">toString</span>(&#x27;base64&#x27;));
-  }
-});
-};
-
-Antigate.prototype.loadCaptcha = function(url, callback) {
-return request.get(url, { encoding: null }, function(error, response, body) {
-  if (!error &#x26;&#x26; response.statusCode === 200) {
-...</pre></li>
     </ul>
 
 
